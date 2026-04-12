@@ -9,11 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: "#FAF7F2",
-        leaf: "#4A6741",
-        blush: "#E8C4C4",
-        gold: "#C9A84C",
-        ink: "#2C2C2C",
+        cream: "#FDFAF4",
+        leaf: "#2D5016",
+        blush: "#F5E6C8",
+        gold: "#D4A017",
+        ink: "#1A1A1A",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],

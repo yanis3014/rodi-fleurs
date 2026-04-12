@@ -65,18 +65,23 @@ const services = [
     ),
   },
   {
-    title: "Livraison J+0",
-    text: "Sur Nice et proches communes, votre commande préparée avec soin et livrée le jour même.",
+    title: "Café Floral",
+    text: "Venez découvrir nos créations autour d'un café, dans un cadre unique au cœur du Vieux-Nice.",
     icon: (
       <svg className="h-8 w-8" viewBox="0 0 24 24" fill="none" aria-hidden>
         <path
-          d="M3 7h11v10H3V7zM14 10h4l3 3v4h-7V10z"
+          d="M6 8h12v6a4 4 0 01-4 4h-1M6 8V6a2 2 0 012-2h8a2 2 0 012 2v2M6 8v8a2 2 0 002 2h1"
           stroke="currentColor"
           strokeWidth="1.5"
+          strokeLinecap="round"
           strokeLinejoin="round"
         />
-        <circle cx="7.5" cy="18" r="1.5" fill="currentColor" />
-        <circle cx="17.5" cy="18" r="1.5" fill="currentColor" />
+        <path
+          d="M10 21h4M12 18v3"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+        />
       </svg>
     ),
   },
@@ -113,15 +118,15 @@ export default function HomePage() {
 
         <div className="relative z-10 mx-auto flex min-h-[100dvh] max-w-4xl flex-col items-center justify-center px-4 pb-20 pt-28 text-center md:pb-24 md:pt-32">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-gold drop-shadow-lg">
-            Nice · Côte d&apos;Azur
+            Vieux-Nice
           </p>
           <h1 className="mt-4 font-display text-4xl font-semibold leading-tight text-white drop-shadow-lg sm:text-5xl md:text-6xl">
-            Rodi Fleurs — Artisan Fleuriste à Nice
+            Thomas Bouilhol — Maître Fleuriste
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-white/90 drop-shadow md:text-xl">
-            Des fleurs choisies avec exigence, des mains expertes et le goût du
-            détail. Faites confiance à notre maison pour sublimer vos moments les
-            plus précieux.
+            Un lieu unique au cœur du Vieux-Nice : l&apos;art floral rencontre la
+            douceur d&apos;un café. Compositions sur mesure, passion du métier
+            depuis trois générations.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
@@ -146,8 +151,8 @@ export default function HomePage() {
             Nos services
           </h2>
           <p className="mt-3 text-ink/70">
-            Une équipe passionnée pour vous accompagner, du premier conseil à la
-            livraison.
+            Du café floral aux grands événements, une même exigence : vous
+            accueillir et sublimer vos moments.
           </p>
         </div>
         <div className="mt-14 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
@@ -165,6 +170,53 @@ export default function HomePage() {
               </p>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section
+        className="bg-blush/20 px-4 py-20 md:py-28"
+        aria-labelledby="cafe-floral-heading"
+      >
+        <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2 lg:gap-16">
+          <div>
+            <p className="text-sm font-medium uppercase tracking-widest text-gold">
+              Un lieu unique à Nice
+            </p>
+            <span className="mt-4 inline-flex rounded-full border border-gold/50 bg-cream/80 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-gold">
+              Concept unique à Nice
+            </span>
+            <h2
+              id="cafe-floral-heading"
+              className="mt-5 font-display text-3xl text-leaf md:text-4xl"
+            >
+              Fleurs &amp; Café au cœur du Vieux-Nice
+            </h2>
+            <p className="mt-5 text-base leading-relaxed text-ink/80 md:text-lg">
+              Chez Thomas Bouilhol, l&apos;art floral se vit autrement. Entre
+              deux compositions, venez vous poser, déguster un café et vous laisser
+              inspirer par les arrivages du jour. Un concept unique sur la Côte
+              d&apos;Azur.
+            </p>
+            <ul className="mt-8 space-y-3 text-ink/80">
+              <li className="flex gap-3">
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                <span>Café servi toute la journée</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                <span>Créations visibles en direct</span>
+              </li>
+            </ul>
+          </div>
+          <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-blush/60 shadow-lg lg:aspect-square">
+            <Image
+              src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=1200&q=80"
+              alt="Terrasse de café avec plantes et ambiance conviviale"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+            />
+          </div>
         </div>
       </section>
 
@@ -201,7 +253,7 @@ export default function HomePage() {
               Ils nous font confiance
             </h2>
             <p className="mt-3 text-sm text-ink/60">
-              Avis Google · démonstration (données fictives)
+              Avis Google · ouvert tous les jours jusqu&apos;à 20h
             </p>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

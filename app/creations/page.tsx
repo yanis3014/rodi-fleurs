@@ -4,11 +4,11 @@ import { CreationsGrid } from "@/components/CreationsGrid";
 export const metadata: Metadata = {
   title: "Nos créations",
   description:
-    "Galerie de bouquets, compositions mariage, plantes et hommages — prix indicatifs. Fleuriste artisan à Nice.",
+    "Galerie Thomas Bouilhol : bouquets, mariages, plantes et hommages au Vieux-Nice — prix indicatifs.",
   openGraph: {
-    title: "Nos créations | Rodi Fleurs",
+    title: "Nos créations | Thomas Bouilhol",
     description:
-      "Découvrez une sélection de compositions florales signées Rodi Fleurs.",
+      "Découvrez une sélection de compositions florales signées Thomas Bouilhol, maître fleuriste.",
   },
 };
 

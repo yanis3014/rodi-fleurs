@@ -30,9 +30,8 @@ export function Footer() {
             Horaires
           </h2>
           <ul className="mt-3 space-y-1.5 text-sm text-ink/80">
-            <li>Lundi : fermé</li>
-            <li>Mardi – Samedi : 7h30 – 19h30</li>
-            <li>Dimanche : 8h00 – 12h30</li>
+            <li>Tous les jours</li>
+            <li>Jusqu&apos;à 20h</li>
           </ul>
           <Link
             href="/contact"
@@ -43,7 +42,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-blush/40 py-4 text-center text-xs text-ink/55">
-        © {new Date().getFullYear()} {SITE.name} — Démonstration vitrine
+        © {new Date().getFullYear()} {SITE.name}
       </div>
     </footer>
   );

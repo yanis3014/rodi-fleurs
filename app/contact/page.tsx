@@ -5,10 +5,11 @@ import { SITE } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contactez Rodi Fleurs à Nice — 30 Bd Pierre Sola. Horaires, téléphone et formulaire.",
+    "Contactez Thomas Bouilhol — maître fleuriste au Vieux-Nice, 5 Rue de l'Ancien Sénat. Horaires, téléphone et formulaire.",
   openGraph: {
-    title: "Contact | Rodi Fleurs",
-    description: "Écrivez-nous ou passez nous voir au cœur de Nice.",
+    title: "Contact | Thomas Bouilhol",
+    description:
+      "Écrivez-nous ou passez nous voir : café floral et fleuriste au cœur du Vieux-Nice.",
   },
 };
 
@@ -23,8 +24,8 @@ export default function ContactPage() {
           Parlons de votre projet
         </h1>
         <p className="mt-4 text-ink/75">
-          Une question, un devis, une urgence florale ? Laissez-nous un message —
-          nous vous répondrons dans la journée.
+          Une question, un devis ou une envie de composition sur mesure ?
+          Laissez-nous un message — nous vous répondrons dans la journée.
         </p>
       </header>
 
@@ -36,15 +37,11 @@ export default function ContactPage() {
             <h2 className="font-display text-xl text-leaf">Horaires</h2>
             <ul className="mt-4 space-y-2 text-sm text-ink/80">
               <li>
-                <span className="font-medium text-ink">Lundi</span> : fermé
+                <span className="font-medium text-ink">Tous les jours</span> —
+                ouvert 7j/7
               </li>
               <li>
-                <span className="font-medium text-ink">Mardi – Samedi</span> :
-                7h30 – 19h30
-              </li>
-              <li>
-                <span className="font-medium text-ink">Dimanche</span> : 8h00 –
-                12h30
+                Fermeture en soirée à <span className="font-medium text-ink">20h</span>
               </li>
             </ul>
           </div>
@@ -64,7 +61,7 @@ export default function ContactPage() {
 
           <div className="overflow-hidden rounded-2xl border border-blush/60 shadow-sm">
             <iframe
-              title="Rodi Fleurs sur Google Maps"
+              title="Thomas Bouilhol sur Google Maps"
               src={SITE.mapsEmbedUrl}
               className="aspect-video h-[280px] w-full md:h-[320px]"
               loading="lazy"

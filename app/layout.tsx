@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
   display: "swap",
 });
 
-const siteUrl = new URL("https://rodifleurs.fr");
+const siteUrl = new URL("https://thomasbouilhol.fr");
 
 export const metadata: Metadata = {
   metadataBase: siteUrl,
@@ -25,42 +25,44 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
   },
   title: {
-    default: "Rodi Fleurs — Artisan fleuriste à Nice",
-    template: "%s | Rodi Fleurs",
+    default: "Thomas Bouilhol — Maître fleuriste Vieux-Nice",
+    template: "%s | Thomas Bouilhol",
   },
   description:
-    "Fleuriste artisan à Nice : bouquets sur mesure, mariages, deuils et livraison le jour même. 30 Bd Pierre Sola.",
+    "Thomas Bouilhol, maître fleuriste au cœur du Vieux-Nice : café floral, bouquets artisanaux, mariages et compositions sur mesure. 5 Rue de l'Ancien Sénat.",
   keywords: [
-    "fleuriste Nice",
-    "bouquets Nice",
-    "mariage fleurs Nice",
-    "livraison fleurs",
-    "Rodi Fleurs",
+    "maître fleuriste Nice",
+    "fleuriste Vieux-Nice",
+    "Thomas Bouilhol",
+    "bouquets artisanaux Nice",
+    "café fleuriste Nice",
+    "café floral Vieux-Nice",
+    "fleurs et café Nice",
   ],
-  authors: [{ name: "Rodi Fleurs" }],
+  authors: [{ name: "Thomas Bouilhol" }],
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",
     locale: "fr_FR",
     url: siteUrl,
-    siteName: "Rodi Fleurs",
-    title: "Rodi Fleurs — Artisan fleuriste à Nice",
+    siteName: "Thomas Bouilhol",
+    title: "Thomas Bouilhol — Maître fleuriste Vieux-Nice",
     description:
-      "Compositions florales d’exception, conseil personnalisé et livraison le jour même sur Nice.",
+      "Café floral et art floral au Vieux-Nice : compositions sur mesure, passion du métier depuis trois générations.",
     images: [
       {
         url: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1200&h=630&fit=crop&q=80",
         width: 1200,
         height: 630,
-        alt: "Composition florale Rodi Fleurs",
+        alt: "Composition florale — Thomas Bouilhol",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rodi Fleurs — Artisan fleuriste à Nice",
+    title: "Thomas Bouilhol — Maître fleuriste Vieux-Nice",
     description:
-      "Bouquets, mariages, deuils et plantes — votre fleuriste au cœur de Nice.",
+      "Un lieu unique : café et fleuriste au cœur du Vieux-Nice. Bouquets, mariages, plantes.",
   },
 };
 
