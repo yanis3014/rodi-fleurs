@@ -60,7 +60,7 @@ export const creations: Creation[] = [
     priceLabel: "180 €",
     category: "mariages",
     imageUrl:
-      "/bouquet/bouquet3.jpg",
+      "/bouquet/bouquet-3.jpg",
   },
   {
     id: "6",
