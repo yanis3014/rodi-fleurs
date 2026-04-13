@@ -24,7 +24,7 @@ export const creations: Creation[] = [
     priceLabel: "45 €",
     category: "bouquets",
     imageUrl:
-      "https://images.unsplash.com/photo-1591884476488-46e9d220552c?w=800&q=80",
+      "/bouquet/bouquet-1.jpg",
   },
   {
     id: "2",
@@ -33,7 +33,7 @@ export const creations: Creation[] = [
     priceLabel: "65 €",
     category: "bouquets",
     imageUrl:
-      "https://images.unsplash.com/photo-1518895949257-7621c3c086d7?w=800&q=80",
+      "/bouquet/bouquet-2.jpg",
   },
   {
     id: "3",
@@ -60,7 +60,7 @@ export const creations: Creation[] = [
     priceLabel: "180 €",
     category: "mariages",
     imageUrl:
-      "https://images.unsplash.com/photo-1522673607200-164f1bc6a486?w=800&q=80",
+      "/bouquet/bouquet3.jpg",
   },
   {
     id: "6",
@@ -96,7 +96,7 @@ export const creations: Creation[] = [
     priceLabel: "42 €",
     category: "plantes",
     imageUrl:
-      "https://images.unsplash.com/photo-1566554279717-c0292105417b?w=800&q=80",
+      "/bouquet/bouquet-4.jpg",
   },
   {
     id: "10",
@@ -123,7 +123,7 @@ export const creations: Creation[] = [
     priceLabel: "85 €",
     category: "deuils",
     imageUrl:
-      "https://images.unsplash.com/photo-1508610041313-e639620fc0f8?w=800&q=80",
+      "/bouquet/bouquet-5.jpg",
   },
 ];
 
