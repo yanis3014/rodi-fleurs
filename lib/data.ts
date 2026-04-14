@@ -156,7 +156,7 @@ export const googleReviews: GoogleReview[] = [
   {
     id: "r4",
     author: "Michel T.",
-    text: "Pour le mariage de ma fille, Thomas a su capturer l’esprit méditerranéen qu’on voulait. Professionnalisme, écoute, et des prix clairs dès le premier rendez-vous.",
+    text: "Pour le mariage de ma fille, l’équipe a su capturer l’esprit méditerranéen qu’on voulait. Professionnalisme, écoute, et des prix clairs dès le premier rendez-vous.",
     date: "Octobre 2024",
   },
   {
@@ -168,11 +168,11 @@ export const googleReviews: GoogleReview[] = [
 ];
 
 export const SITE = {
-  name: "Thomas Bouilhol",
-  tagline: "Maître Fleuriste au cœur du Vieux-Nice",
-  address: "5 Rue de l'Ancien Sénat, 06300 Nice, France",
-  phoneDisplay: "+33 6 64 06 24 22",
-  phoneHref: "tel:+33664062422",
+  name: "Au Bouquet de Nice",
+  tagline: "Votre fleuriste au cœur de Nice",
+  address: "55 rue Bonaparte, 06300 Nice, France",
+  phoneDisplay: "04 93 55 32 59",
+  phoneHref: "tel:+33493553259",
   mapsEmbedUrl:
-    "https://maps.google.com/maps?q=5+Rue+de+l%27Ancien+S%C3%A9nat,+06300+Nice,+France&hl=fr&z=17&ie=UTF8&iwloc=B&output=embed",
+    "https://maps.google.com/maps?q=55+rue+Bonaparte,+06300+Nice,+France&hl=fr&z=17&ie=UTF8&iwloc=B&output=embed",
 } as const;

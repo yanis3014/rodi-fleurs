@@ -30,8 +30,9 @@ export function Footer() {
             Horaires
           </h2>
           <ul className="mt-3 space-y-1.5 text-sm text-ink/80">
-            <li>Tous les jours</li>
-            <li>Jusqu&apos;à 20h</li>
+            <li>Mardi–Samedi : 8h30–19h15</li>
+            <li>Dimanche : 8h30–13h00</li>
+            <li>Fermé le lundi</li>
           </ul>
           <Link
             href="/contact"

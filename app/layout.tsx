@@ -17,7 +17,7 @@ const playfair = Playfair_Display({
   display: "swap",
 });
 
-const siteUrl = new URL("https://thomasbouilhol.fr");
+const siteUrl = new URL("https://aubouquetdenice.fr");
 
 export const metadata: Metadata = {
   metadataBase: siteUrl,
@@ -25,44 +25,44 @@ export const metadata: Metadata = {
     icon: "/favicon.svg",
   },
   title: {
-    default: "Thomas Bouilhol — Maître fleuriste Vieux-Nice",
-    template: "%s | Thomas Bouilhol",
+    default: "Au Bouquet de Nice — Fleuriste Nice",
+    template: "%s | Au Bouquet de Nice",
   },
   description:
-    "Thomas Bouilhol, maître fleuriste au cœur du Vieux-Nice : café floral, bouquets artisanaux, mariages et compositions sur mesure. 5 Rue de l'Ancien Sénat.",
+    "Au Bouquet de Nice, votre fleuriste au 55 rue Bonaparte, Nice : bouquets artisanaux, mariages, deuils et compositions sur mesure. Ouvert du mardi au dimanche.",
   keywords: [
-    "maître fleuriste Nice",
-    "fleuriste Vieux-Nice",
-    "Thomas Bouilhol",
+    "fleuriste Nice",
+    "bouquets Nice",
+    "Au Bouquet de Nice",
+    "fleurs Nice",
     "bouquets artisanaux Nice",
-    "café fleuriste Nice",
-    "café floral Vieux-Nice",
-    "fleurs et café Nice",
+    "mariage fleurs Nice",
+    "fleuriste rue Bonaparte Nice",
   ],
-  authors: [{ name: "Thomas Bouilhol" }],
+  authors: [{ name: "Au Bouquet de Nice" }],
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",
     locale: "fr_FR",
     url: siteUrl,
-    siteName: "Thomas Bouilhol",
-    title: "Thomas Bouilhol — Maître fleuriste Vieux-Nice",
+    siteName: "Au Bouquet de Nice",
+    title: "Au Bouquet de Nice — Fleuriste Nice",
     description:
-      "Café floral et art floral au Vieux-Nice : compositions sur mesure, passion du métier depuis trois générations.",
+      "Bouquets artisanaux, mariages et compositions sur mesure au 55 rue Bonaparte, Nice.",
     images: [
       {
         url: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=1200&h=630&fit=crop&q=80",
         width: 1200,
         height: 630,
-        alt: "Composition florale — Thomas Bouilhol",
+        alt: "Composition florale — Au Bouquet de Nice",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Thomas Bouilhol — Maître fleuriste Vieux-Nice",
+    title: "Au Bouquet de Nice — Fleuriste Nice",
     description:
-      "Un lieu unique : café et fleuriste au cœur du Vieux-Nice. Bouquets, mariages, plantes.",
+      "Votre fleuriste à Nice : bouquets, mariages, plantes et compositions sur mesure. 55 rue Bonaparte.",
   },
 };
 
