@@ -5,11 +5,11 @@ import { SITE } from "@/lib/data";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Contactez Thomas Bouilhol — maître fleuriste au Vieux-Nice, 5 Rue de l'Ancien Sénat. Horaires, téléphone et formulaire.",
+    "Contactez Au Bouquet de Nice — votre fleuriste au 55 rue Bonaparte, Nice. Horaires, téléphone et formulaire.",
   openGraph: {
-    title: "Contact | Thomas Bouilhol",
+    title: "Contact | Au Bouquet de Nice",
     description:
-      "Écrivez-nous ou passez nous voir : café floral et fleuriste au cœur du Vieux-Nice.",
+      "Écrivez-nous ou passez nous voir : votre fleuriste au 55 rue Bonaparte, Nice.",
   },
 };
 
@@ -37,11 +37,15 @@ export default function ContactPage() {
             <h2 className="font-display text-xl text-leaf">Horaires</h2>
             <ul className="mt-4 space-y-2 text-sm text-ink/80">
               <li>
-                <span className="font-medium text-ink">Tous les jours</span> —
-                ouvert 7j/7
+                <span className="font-medium text-ink">Mardi–Samedi</span> —
+                8h30 à 19h15
               </li>
               <li>
-                Fermeture en soirée à <span className="font-medium text-ink">20h</span>
+                <span className="font-medium text-ink">Dimanche</span> —
+                8h30 à 13h00
+              </li>
+              <li>
+                <span className="font-medium text-ink">Lundi</span> — Fermé
               </li>
             </ul>
           </div>
@@ -61,7 +65,7 @@ export default function ContactPage() {
 
           <div className="overflow-hidden rounded-2xl border border-blush/60 shadow-sm">
             <iframe
-              title="Thomas Bouilhol sur Google Maps"
+              title="Au Bouquet de Nice sur Google Maps"
               src={SITE.mapsEmbedUrl}
               className="aspect-video h-[280px] w-full md:h-[320px]"
               loading="lazy"

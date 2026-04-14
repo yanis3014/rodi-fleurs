@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 
 const MESSAGES = [
-  "Maître Fleuriste & Café Floral · Vieux-Nice · 5 Rue de l'Ancien Sénat",
-  "Maître Fleuriste — 5 Rue de l'Ancien Sénat, Vieux-Nice · Ouvert 7j/7",
+  "Au Bouquet de Nice · Fleuriste · 55 rue Bonaparte, 06300 Nice",
+  "Ouvert Mar–Sam 8h30–19h15 · Dim 8h30–13h00 · Tél. 04 93 55 32 59",
 ] as const;
 
 export function DeliveryBadge() {

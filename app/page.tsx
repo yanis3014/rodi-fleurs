@@ -65,22 +65,16 @@ const services = [
     ),
   },
   {
-    title: "Café Floral",
-    text: "Venez découvrir nos créations autour d'un café, dans un cadre unique au cœur du Vieux-Nice.",
+    title: "Événements",
+    text: "Décorations florales pour vos réceptions, anniversaires et événements professionnels.",
     icon: (
       <svg className="h-8 w-8" viewBox="0 0 24 24" fill="none" aria-hidden>
         <path
-          d="M6 8h12v6a4 4 0 01-4 4h-1M6 8V6a2 2 0 012-2h8a2 2 0 012 2v2M6 8v8a2 2 0 002 2h1"
+          d="M8 7V3M16 7V3M3 11h18M5 5h14a2 2 0 012 2v12a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2z"
           stroke="currentColor"
           strokeWidth="1.5"
           strokeLinecap="round"
           strokeLinejoin="round"
-        />
-        <path
-          d="M10 21h4M12 18v3"
-          stroke="currentColor"
-          strokeWidth="1.5"
-          strokeLinecap="round"
         />
       </svg>
     ),
@@ -118,15 +112,14 @@ export default function HomePage() {
 
         <div className="relative z-10 mx-auto flex min-h-[100dvh] max-w-4xl flex-col items-center justify-center px-4 pb-20 pt-28 text-center md:pb-24 md:pt-32">
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-gold drop-shadow-lg">
-            Vieux-Nice
+            Nice · 55 rue Bonaparte
           </p>
           <h1 className="mt-4 font-display text-4xl font-semibold leading-tight text-white drop-shadow-lg sm:text-5xl md:text-6xl">
-            Thomas Bouilhol — Maître Fleuriste
+            Au Bouquet de Nice
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-white/90 drop-shadow md:text-xl">
-            Un lieu unique au cœur du Vieux-Nice : l&apos;art floral rencontre la
-            douceur d&apos;un café. Compositions sur mesure, passion du métier
-            depuis trois générations.
+            Votre fleuriste à Nice : bouquets artisanaux, compositions sur mesure
+            pour vos mariages, anniversaires et toutes vos occasions.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Link
@@ -175,43 +168,47 @@ export default function HomePage() {
 
       <section
         className="bg-blush/20 px-4 py-20 md:py-28"
-        aria-labelledby="cafe-floral-heading"
+        aria-labelledby="about-heading"
       >
         <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div>
             <p className="text-sm font-medium uppercase tracking-widest text-gold">
-              Un lieu unique à Nice
+              Notre boutique
             </p>
             <span className="mt-4 inline-flex rounded-full border border-gold/50 bg-cream/80 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-gold">
-              Concept unique à Nice
+              55 rue Bonaparte, Nice
             </span>
             <h2
-              id="cafe-floral-heading"
+              id="about-heading"
               className="mt-5 font-display text-3xl text-leaf md:text-4xl"
             >
-              Fleurs &amp; Café au cœur du Vieux-Nice
+              Un fleuriste passionné au cœur de Nice
             </h2>
             <p className="mt-5 text-base leading-relaxed text-ink/80 md:text-lg">
-              Chez Thomas Bouilhol, l&apos;art floral se vit autrement. Entre
-              deux compositions, venez vous poser, déguster un café et vous laisser
-              inspirer par les arrivages du jour. Un concept unique sur la Côte
-              d&apos;Azur.
+              Au Bouquet de Nice, nous sélectionnons chaque jour les plus belles
+              fleurs pour créer des compositions qui vous ressemblent. Bouquets du
+              quotidien, arrangements de mariage ou compositions de deuil —
+              notre équipe vous accompagne avec soin.
             </p>
             <ul className="mt-8 space-y-3 text-ink/80">
               <li className="flex gap-3">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
-                <span>Café servi toute la journée</span>
+                <span>Fleurs fraîches renouvelées chaque jour</span>
               </li>
               <li className="flex gap-3">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
-                <span>Créations visibles en direct</span>
+                <span>Compositions sur mesure pour tous les budgets</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+                <span>Ouvert du mardi au dimanche</span>
               </li>
             </ul>
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-blush/60 shadow-lg lg:aspect-square">
             <Image
               src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=1200&q=80"
-              alt="Terrasse de café avec plantes et ambiance conviviale"
+              alt="Boutique Au Bouquet de Nice"
               fill
               className="object-cover"
               sizes="(max-width: 1024px) 100vw, 50vw"
@@ -253,7 +250,7 @@ export default function HomePage() {
               Ils nous font confiance
             </h2>
             <p className="mt-3 text-sm text-ink/60">
-              Avis Google · ouvert tous les jours jusqu&apos;à 20h
+              Avis Google · Mar–Sam 8h30–19h15 · Dim 8h30–13h00
             </p>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
